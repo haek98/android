@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timer_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetTimerActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/timerToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@android:color/holo_blue_light"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Set Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/futureStartEditLayout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/futureStartEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPostalAddress"
+            android:hint="Starting Address" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/futureDestEditLayout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/timerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/futureDestEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Destination Address"
+            android:inputType="textPostalAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/alternateImage"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/timer_not_possible" />
+
+</android.support.constraint.ConstraintLayout>

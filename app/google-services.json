@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "646236302181",
+    "firebase_url": "https://finaltwo2-3d2bb.firebaseio.com",
+    "project_id": "finaltwo2-3d2bb",
+    "storage_bucket": "finaltwo2-3d2bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646236302181:android:916ebe541d7a17fb",
+        "android_client_info": {
+          "package_name": "com.example.asus.final_two"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646236302181-g60g3fbd2m9o56mm2qoo2psh92j6auu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.final_two",
+            "certificate_hash": "b70b1761eac59989c208a14219c98b0a8b940e59"
+          }
+        },
+        {
+          "client_id": "646236302181-ee1da0sgbv2ga35heeu5olmeefaad6ki.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "646236302181-ee1da0sgbv2ga35heeu5olmeefaad6ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-_xciPEa65r6NYG_qRTlIp065Jg6sTi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646236302181-ee1da0sgbv2ga35heeu5olmeefaad6ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
